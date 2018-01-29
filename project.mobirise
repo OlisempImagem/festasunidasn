@@ -694,11 +694,11 @@
             "theme": "aqua",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/harmonia-tour-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/harmonia%20tour%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/harmonia%20tour%20-%20logo-842x842.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/harmonia-tour-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/harmonia%20tour%20-%20logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1183,11 +1183,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/banda-harmonia-logo-826x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/banda%20harmonia%20-%20logo-826x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/banda%20harmonia%20-%20logo-911x635.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/banda-harmonia-logo-68x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/banda%20harmonia%20-%20logo-68x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1309,11 +1309,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/master-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/master%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/master%20-%20logo-828x828.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/master-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/master%20-%20logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1437,11 +1437,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/banda-maia-orquestra-e-coral-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/banda%20maia%20orquestra%20e%20coral%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/banda%20maia%20orquestra%20e%20coral%20-%20logo-540x540.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/banda-maia-orquestra-e-coral-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/banda%20maia%20orquestra%20e%20coral%20-%20logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1565,11 +1565,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/banda-d-r-mi-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/banda%20d%C3%B3%20r%C3%A9%20mi%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/banda%20d%C3%B3%20r%C3%A9%20mi%20-%20logo-309x309.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/banda-d-r-mi-logo-47x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/banda%20d%C3%B3%20r%C3%A9%20mi%20-%20logo-47x47.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1730,11 +1730,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/showflair-logo-1012x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/showflair%20-%20logo-1012x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/showflair%20-%20logo-531x302.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/showflair-logo-84x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/showflair%20-%20logo-84x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1856,11 +1856,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/e-mixer-bartenders-logo-921x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/e-mixer%20bartenders%20-%20logo-921x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/e-mixer%20bartenders%20-%20logo-960x600.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/e-mixer-bartenders-logo-76x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/e-mixer%20bartenders%20-%20logo-76x48.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": true
@@ -2510,11 +2510,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/andra-mussato-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/andr%C3%A9a%20mussato%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/andr%C3%A9a%20mussato%20-%20logo-960x960.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/andra-mussato-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/andr%C3%A9a%20mussato%20-%20logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -2636,11 +2636,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/frioli-eventos-logo-889x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/frioli%20eventos%20-%20logo-889x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/frioli%20eventos%20-%20logo-960x622.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/frioli-eventos-logo-74x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/frioli%20eventos%20-%20logo-74x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -2764,11 +2764,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/dani-ciol-logo-574x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dani%20ciol%20-%20logo-574x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/dani%20ciol%20-%20logo-605x607.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/dani-ciol-logo-47x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/dani%20ciol%20-%20logo-47x47.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -2929,11 +2929,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/marquesa-envelopes-criativos-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/marquesa%20envelopes%20criativos%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/marquesa%20envelopes%20criativos%20-%20logo-960x960.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/marquesa-envelopes-criativos-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/marquesa%20envelopes%20criativos%20-%20logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -3418,11 +3418,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/ana-decoraes-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ana%20decora%C3%A7%C3%B5es%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/ana%20decora%C3%A7%C3%B5es%20-%20logo-200x200.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/ana-decoraes-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/ana%20decora%C3%A7%C3%B5es%20-%20logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -3581,11 +3581,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/pista-de-dana-personalizada-andressa-nunes-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pista%20de%20dan%C3%A7a%20personalizada%20-%20andressa%20nunes%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/pista%20de%20dan%C3%A7a%20personalizada%20-%20andressa%20nunes%20-%20logo-960x960.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/pista-de-dana-personalizada-andressa-nunes-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/pista%20de%20dan%C3%A7a%20personalizada%20-%20andressa%20nunes%20-%20logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -4396,11 +4396,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/hb-eventos-salo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hb%20eventos%20-%20sal%C3%A3o-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/hb%20eventos%20-%20sal%C3%A3o-500x500.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/hb-eventos-salo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/hb%20eventos%20-%20sal%C3%A3o-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -4722,11 +4722,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/foto-cabine-valverde-logo-1024x400.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto%20cabine%20valverde%20-%20logo-1024x400.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%20cabine%20valverde%20-%20logo-960x375.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto-cabine-valverde-logo-85x33.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto%20cabine%20valverde%20-%20logo-85x33.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -4885,11 +4885,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/alex-massarotto-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/alex%20massarotto%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/alex%20massarotto%20-%20logo-960x960.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/alex-massarotto-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/alex%20massarotto%20-%20logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5011,11 +5011,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/damaris-montoro-fotografia-imagem-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/damaris%20montoro%20fotografia%20-%20imagem-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/damaris%20montoro%20fotografia%20-%20imagem-873x873.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/damaris-montoro-fotografia-imagem-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/damaris%20montoro%20fotografia%20-%20imagem-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5139,11 +5139,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/jack-produes-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jack%20produ%C3%A7%C3%B5es%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/jack%20produ%C3%A7%C3%B5es%20-%20logo-960x960.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/jack-produes-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/jack%20produ%C3%A7%C3%B5es%20-%20logo-48x48.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": true
@@ -5267,11 +5267,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/jeferson-produes-fotografia-865x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jeferson%20produ%C3%A7%C3%B5es%20-%20fotografia-865x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/jeferson%20produ%C3%A7%C3%B5es%20-%20fotografia-960x639.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/jeferson-produes-fotografia-72x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/jeferson%20produ%C3%A7%C3%B5es%20-%20fotografia-72x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5395,11 +5395,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/studio-spinozza-foto-e-video-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/studio%20spinozza%20foto%20e%20video%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/studio%20spinozza%20foto%20e%20video%20-%20logo-600x600.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/studio-spinozza-foto-e-video-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/studio%20spinozza%20foto%20e%20video%20-%20logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5523,11 +5523,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/studio9-logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/studio9%20-%20logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/studio9%20-%20logo-472x472.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/studio9-logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/studio9%20-%20logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5651,11 +5651,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/blog-capa-675x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/blog%20capa-675x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/blog%20capa-360x307.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/blog-capa-56x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/blog%20capa-56x47.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5979,11 +5979,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/carto-de-visita-frente-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/cart%C3%A3o%20de%20visita%20frente-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/cart%C3%A3o%20de%20visita%20frente-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/carto-de-visita-frente-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/cart%C3%A3o%20de%20visita%20frente-48x47.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
@@ -5999,51 +5999,51 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto-3-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto%203-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%203-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto-3-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto%203-48x47.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto-4-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto%204-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%204-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto-4-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto%204-48x47.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto-5-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto%205-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%205-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto-5-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto%205-48x47.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto-6-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto%206-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%206-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto-6-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto%206-48x47.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto-7-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto%207-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%207-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto-7-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto%207-48x47.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": true
@@ -6165,11 +6165,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/top-lembrancinhas-logo-1024x497.jpg",
+                "image": "@PROJECT_PATH@/assets/images/top%20lembrancinhas%20-%20logo-1024x497.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/top%20lembrancinhas%20-%20logo-581x282.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/top-lembrancinhas-logo-85x41.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/top%20lembrancinhas%20-%20logo-85x41.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
