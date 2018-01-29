@@ -24,7 +24,7 @@
         "display4Font": "Roboto",
         "display4Size": "0.4",
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": false,
+        "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "arrowColor": "#efefef"
       },
@@ -418,7 +418,7 @@
             }
           },
           "_name": "testimonials1",
-          "_customHTML": "<section class=\"carousel slide testimonials-slider\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Padding Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Padding Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showTitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline && showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"20\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Author Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Show Author Title\" name=\"showDesk\" checked>\n        <input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#000000\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/cabe%C3%A7alho-750x180.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#cccccc\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#444444\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<!--     <div class=\"container-fluid\"> -->\n    <div class=\"container text-center\">\n        <h2 class=\" mbr-section-title mbr-fonts-style mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">\n            WHAT MY CLIENTS SAY\n        </h2>\n        <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n            <div class=\"line\"></div>\n        </div>\n        <h3 class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3 mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n        </h3>\n        <div class=\"row justify-content-center carousel-row\">\n            <div class=\"col-md-10\">\n                <div class=\"carousel slide pt-5\" data-ride=\"carousel\" role=\"listbox\">\n                    <div class=\"slider-testimonials\">\n                        <div mbr-list mbr-list-grow=\"testimonialsSlides\" class=\"carousel-inner\">\n                            <div class=\"carousel-item\">\n                                <div class=\"user col-md-8\">\n                                    <div class=\"user_image\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/logo2-1-250x250.png\" alt title>\n                                    </div>\n                                    <div class=\"user_text\">\n                                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".user_text\">&nbsp;Seu evento ainda pode ter mais atrações! Abaixo  você  pode  ver  as  datas  que  os anunciantes estão dando descontos.\n<br>\n<br>Se  algum  ajustou  perfeitamente ao que quer,  clique  agora  e  garanta seu código promocional!\n<br>\n<br>Depois, basta enviar pedido de orçamento para  o  anunciante  com  o  código.\n<br>\n<br>      *Os códigos promocionais são de               responsabilidade dos anunciantes,             portanto, não deixe de ver as condições                  estabelecidas por eles.</p>\n                                    </div>\n                                    <div mbr-text class=\"user_name mbr-bold pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".user_name\"></div>\n                                    <div mbr-text class=\"user_desk mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDesk\" data-app-selector=\".user_desk\"></div>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n                <div class=\"carousel-controls\">\n                    <a class=\"carousel-control-prev carousel-control\" role=\"button\" data-slide=\"prev\">\n                      <span aria-hidden=\"true\" class=\"mbri-arrow-prev mbr-iconfont\"></span>\n                      <span class=\"sr-only\">Previous</span>\n                    </a>\n\n                    <a class=\"carousel-control-next carousel-control\" role=\"button\" data-slide=\"next\">\n                      <span aria-hidden=\"true\" class=\"mbri-arrow-next mbr-iconfont\"></span>\n                      <span class=\"sr-only\">Next</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"carousel slide testimonials-slider\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Padding Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Padding Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" inline>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showTitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#ffffff\" condition=\"showUnderline && showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"20\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Author Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Show Author Title\" name=\"showDesk\" checked>\n        <input type=\"color\" title=\"Arrows Color\" name=\"arrowsColor\" value=\"#000000\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/cabealho-750x180.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#cccccc\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#444444\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n<!--     <div class=\"container-fluid\"> -->\n    <div class=\"container text-center\">\n        <h2 class=\" mbr-section-title mbr-fonts-style mbr-white\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">\n            WHAT MY CLIENTS SAY\n        </h2>\n        <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n            <div class=\"line\"></div>\n        </div>\n        <h3 class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3 mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n        </h3>\n        <div class=\"row justify-content-center carousel-row\">\n            <div class=\"col-md-10\">\n                <div class=\"carousel slide pt-5\" data-ride=\"carousel\" role=\"listbox\">\n                    <div class=\"slider-testimonials\">\n                        <div mbr-list mbr-list-grow=\"testimonialsSlides\" class=\"carousel-inner\">\n                            <div class=\"carousel-item\">\n                                <div class=\"user col-md-8\">\n                                    <div class=\"user_image\">\n                                        <img src=\"@PROJECT_PATH@/assets/images/logo2-1-250x250.png\" alt title>\n                                    </div>\n                                    <div class=\"user_text\">\n                                        <p class=\"mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".user_text\">&nbsp;Seu evento ainda pode ter mais atrações! Abaixo  você  pode  ver  as  datas  que  os anunciantes estão dando descontos.\n<br>\n<br>Se  algum  ajustou  perfeitamente ao que quer,  clique  agora  e  garanta seu código promocional!\n<br>\n<br>Depois, basta enviar pedido de orçamento para  o  anunciante  com  o  código.\n<br>\n<br>      *Os códigos promocionais são de               responsabilidade dos anunciantes,             portanto, não deixe de ver as condições                  estabelecidas por eles.</p>\n                                    </div>\n                                    <div mbr-text class=\"user_name mbr-bold pb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showName\" data-app-selector=\".user_name\"></div>\n                                    <div mbr-text class=\"user_desk mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDesk\" data-app-selector=\".user_desk\"></div>\n                                </div>\n                            </div>\n                            \n                        </div>\n                    </div>\n                </div>\n                <div class=\"carousel-controls\">\n                    <a class=\"carousel-control-prev carousel-control\" role=\"button\" data-slide=\"prev\">\n                      <span aria-hidden=\"true\" class=\"mbri-arrow-prev mbr-iconfont\"></span>\n                      <span class=\"sr-only\">Previous</span>\n                    </a>\n\n                    <a class=\"carousel-control-next carousel-control\" role=\"button\" data-slide=\"next\">\n                      <span aria-hidden=\"true\" class=\"mbri-arrow-next mbr-iconfont\"></span>\n                      <span class=\"sr-only\">Next</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qHRE9DUkVv",
           "_anchor": "testimonials1-r",
           "_protectedParams": [],
@@ -694,11 +694,11 @@
             "theme": "aqua",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/harmonia%20tour%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/harmonia-tour-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/harmonia%20tour%20-%20logo-842x842.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/harmonia%20tour%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/harmonia-tour-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1183,11 +1183,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/banda%20harmonia%20-%20logo-826x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/banda-harmonia-logo-826x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/banda%20harmonia%20-%20logo-911x635.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/banda%20harmonia%20-%20logo-68x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/banda-harmonia-logo-68x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1309,11 +1309,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/master%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/master-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/master%20-%20logo-828x828.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/master%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/master-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1437,11 +1437,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/banda%20maia%20orquestra%20e%20coral%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/banda-maia-orquestra-e-coral-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/banda%20maia%20orquestra%20e%20coral%20-%20logo-540x540.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/banda%20maia%20orquestra%20e%20coral%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/banda-maia-orquestra-e-coral-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1565,11 +1565,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/banda%20d%C3%B3%20r%C3%A9%20mi%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/banda-d-r-mi-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/banda%20d%C3%B3%20r%C3%A9%20mi%20-%20logo-309x309.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/banda%20d%C3%B3%20r%C3%A9%20mi%20-%20logo-47x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/banda-d-r-mi-logo-47x47.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1730,11 +1730,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/showflair%20-%20logo-1012x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/showflair-logo-1012x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/showflair%20-%20logo-531x302.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/showflair%20-%20logo-84x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/showflair-logo-84x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -1856,11 +1856,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/e-mixer%20bartenders%20-%20logo-921x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/e-mixer-bartenders-logo-921x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/e-mixer%20bartenders%20-%20logo-960x600.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/e-mixer%20bartenders%20-%20logo-76x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/e-mixer-bartenders-logo-76x48.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": true
@@ -2510,11 +2510,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/andr%C3%A9a%20mussato%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/andra-mussato-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/andr%C3%A9a%20mussato%20-%20logo-960x960.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/andr%C3%A9a%20mussato%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/andra-mussato-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -2636,11 +2636,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/frioli%20eventos%20-%20logo-889x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/frioli-eventos-logo-889x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/frioli%20eventos%20-%20logo-960x622.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/frioli%20eventos%20-%20logo-74x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/frioli-eventos-logo-74x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -2764,11 +2764,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/dani%20ciol%20-%20logo-574x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dani-ciol-logo-574x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/dani%20ciol%20-%20logo-605x607.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/dani%20ciol%20-%20logo-47x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/dani-ciol-logo-47x47.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -2929,11 +2929,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/marquesa%20envelopes%20criativos%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/marquesa-envelopes-criativos-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/marquesa%20envelopes%20criativos%20-%20logo-960x960.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/marquesa%20envelopes%20criativos%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/marquesa-envelopes-criativos-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -3418,11 +3418,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/ana%20decora%C3%A7%C3%B5es%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ana-decoraes-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/ana%20decora%C3%A7%C3%B5es%20-%20logo-200x200.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/ana%20decora%C3%A7%C3%B5es%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/ana-decoraes-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -3581,11 +3581,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/pista%20de%20dan%C3%A7a%20personalizada%20-%20andressa%20nunes%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/pista-de-dana-personalizada-andressa-nunes-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/pista%20de%20dan%C3%A7a%20personalizada%20-%20andressa%20nunes%20-%20logo-960x960.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/pista%20de%20dan%C3%A7a%20personalizada%20-%20andressa%20nunes%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/pista-de-dana-personalizada-andressa-nunes-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -4396,11 +4396,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/hb%20eventos%20-%20sal%C3%A3o-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hb-eventos-salo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/hb%20eventos%20-%20sal%C3%A3o-500x500.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/hb%20eventos%20-%20sal%C3%A3o-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/hb-eventos-salo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -4722,11 +4722,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/foto%20cabine%20valverde%20-%20logo-1024x400.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto-cabine-valverde-logo-1024x400.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%20cabine%20valverde%20-%20logo-960x375.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto%20cabine%20valverde%20-%20logo-85x33.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto-cabine-valverde-logo-85x33.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -4885,11 +4885,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/alex%20massarotto%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/alex-massarotto-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/alex%20massarotto%20-%20logo-960x960.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/alex%20massarotto%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/alex-massarotto-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5011,11 +5011,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/damaris%20montoro%20fotografia%20-%20imagem-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/damaris-montoro-fotografia-imagem-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/damaris%20montoro%20fotografia%20-%20imagem-873x873.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/damaris%20montoro%20fotografia%20-%20imagem-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/damaris-montoro-fotografia-imagem-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5139,11 +5139,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/jack%20produ%C3%A7%C3%B5es%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jack-produes-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/jack%20produ%C3%A7%C3%B5es%20-%20logo-960x960.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/jack%20produ%C3%A7%C3%B5es%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/jack-produes-logo-48x48.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": true
@@ -5267,11 +5267,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/jeferson%20produ%C3%A7%C3%B5es%20-%20fotografia-865x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jeferson-produes-fotografia-865x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/jeferson%20produ%C3%A7%C3%B5es%20-%20fotografia-960x639.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/jeferson%20produ%C3%A7%C3%B5es%20-%20fotografia-72x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/jeferson-produes-fotografia-72x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5395,11 +5395,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/studio%20spinozza%20foto%20e%20video%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/studio-spinozza-foto-e-video-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/studio%20spinozza%20foto%20e%20video%20-%20logo-600x600.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/studio%20spinozza%20foto%20e%20video%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/studio-spinozza-foto-e-video-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5523,11 +5523,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/studio9%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/studio9-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/studio9%20-%20logo-472x472.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/studio9%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/studio9-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5651,11 +5651,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/blog%20capa-675x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/blog-capa-675x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/blog%20capa-360x307.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/blog%20capa-56x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/blog-capa-56x47.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -5979,71 +5979,71 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/cart%C3%A3o%20de%20visita%20frente-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/carto-de-visita-frente-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/cart%C3%A3o%20de%20visita%20frente-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/cart%C3%A3o%20de%20visita%20frente-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/carto-de-visita-frente-48x47.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto%201-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto-1-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%201-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto%201-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto-1-48x47.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto%203-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto-3-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%203-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto%203-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto-3-48x47.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto%204-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto-4-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%204-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto%204-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto-4-48x47.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto%205-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto-5-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%205-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto%205-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto-5-48x47.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto%206-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto-6-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%206-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto%206-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto-6-48x47.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/foto%207-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto-7-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%207-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto%207-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto-7-48x47.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": true
@@ -6165,11 +6165,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/top%20lembrancinhas%20-%20logo-1024x497.jpg",
+                "image": "@PROJECT_PATH@/assets/images/top-lembrancinhas-logo-1024x497.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/top%20lembrancinhas%20-%20logo-581x282.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/top%20lembrancinhas%20-%20logo-85x41.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/top-lembrancinhas-logo-85x41.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -6330,11 +6330,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/diga%20sim%20-%20logo-1015x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/diga-sim-logo-1015x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/diga%20sim%20-%20logo-319x181.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/diga%20sim%20-%20logo-84x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/diga-sim-logo-84x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -6656,11 +6656,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/psa%20som%20e%20ilumina%C3%A7%C3%A3o%20-%20logo-620x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/psa-som-e-iluminao-logo-620x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/psa%20som%20e%20ilumina%C3%A7%C3%A3o%20-%20logo-237x220.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/psa%20som%20e%20ilumina%C3%A7%C3%A3o%20-%20logo-51x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/psa-som-e-iluminao-logo-51x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -6982,11 +6982,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/foto%201-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/foto-1-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/foto%201-748x747.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/foto%201-48x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/foto-1-48x47.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": false
@@ -7471,11 +7471,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/namo%20filmes%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/namo-filmes-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/namo%20filmes%20-%20logo-600x600.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/namo%20filmes%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/namo-filmes-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -7597,11 +7597,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/valverde%20fotografia%20e%20cinematografia%20-%20logo-1024x568.jpg",
+                "image": "@PROJECT_PATH@/assets/images/valverde-fotografia-e-cinematografia-logo-1024x568.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/valverde%20fotografia%20e%20cinematografia%20-%20logo-960x533.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/valverde%20fotografia%20e%20cinematografia%20-%20logo-85x47.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/valverde-fotografia-e-cinematografia-logo-85x47.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -7725,11 +7725,11 @@
             "theme": "boundary",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/keity%20produ%C3%A7%C3%B5es%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/keity-produes-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/keity%20produ%C3%A7%C3%B5es%20-%20logo-400x400.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/keity%20produ%C3%A7%C3%B5es%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/keity-produes-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
@@ -7853,11 +7853,11 @@
             "theme": "calm",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/meu%20dia%20filmes%20-%20logo-576x576.jpg",
+                "image": "@PROJECT_PATH@/assets/images/meu-dia-filmes-logo-576x576.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/meu%20dia%20filmes%20-%20logo-180x180.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/meu%20dia%20filmes%20-%20logo-48x48.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/meu-dia-filmes-logo-48x48.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": true
